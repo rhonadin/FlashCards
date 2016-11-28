@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flash Cards</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+		
+	</style>
+</head>
+<body>
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+			<!-- Brand name/link and button -->
+				<a class="navbar-brand pull-left" ahref="index.html" id="top">Cards</a>
+				<button id="navbarToggle" type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#nav-items" aria-expanded="false">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!-- Nav Links that will collapse into button at XS size -->
+				<div class="collapse navbar-collapse" id="nav-items">
+					<ul class="nav navbar-nav navbar-right">
+						<!-- Figure out page structures for Decks and Settings -->
+						<button class="btn btn-default"><li>Decks</li></button>
+						<button class="btn btn-default"><li>Settings</li></button>
+					</ul>
+				</div>
+
+		</div>
+	</nav>
+	<div id="mainContent" class="containter-fluid">
+			<span id="contentFront" class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">Front</span>
+			<span id="contentBack" class="col-xs-12 col-sm-6 col-sm-offset-3 text-center"></span>
+			<span id="didYouKnow" class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+				Did You Know The Answer?
+			</span>
+			<button class="col-xs-6 col-sm-2 col-sm-offset-3 text-center btn btn-danger replyButtons">
+				No</button>
+			<button class="col-xs-6 col-sm-2 col-sm-offset-2 text-center btn btn-success replyButtons">
+				Yes</button>
+	</div>
+
+
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
